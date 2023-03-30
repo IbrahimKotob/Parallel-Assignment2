@@ -3,7 +3,7 @@
 #include <omp.h>
 #include <time.h>
 
-#define MAX_THREADS 100000
+#define MAX_THREADS 10000
 
 int M, N, K;
 int matrix_A[MAX_THREADS][MAX_THREADS];
